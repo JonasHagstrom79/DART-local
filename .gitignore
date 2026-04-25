@@ -1,3 +1,6 @@
+# Personal run scripts
+run_video.ps1
+
 # Model weights and checkpoints
 *.pt
 *.pth
