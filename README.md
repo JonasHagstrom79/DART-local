@@ -14,8 +14,25 @@
 ### Förutsättningar
 
 - Windows 11
-- Conda-miljö aktiverad, stå i mappen `C:\dev\DART`
-- Python 3.11+, PyTorch med CUDA installerat
+- Conda installerat
+- CUDA-kompatibelt Nvidia-kort (testat på RTX 4080)
+
+---
+
+### Steg 0 — Skapa miljön
+
+```powershell
+conda create -n dartsam3 python=3.11 -y
+conda activate dartsam3
+
+# Installera PyTorch (se till att CUDA-versionen matchar ditt kort)
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+# Installera DART och alla beroenden
+pip install -e .
+```
+
+> **CUDA-version:** `cu126` motsvarar CUDA 12.6. Kolla din version med `nvidia-smi` och justera vid behov.
 
 ---
 
