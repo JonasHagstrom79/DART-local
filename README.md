@@ -4,7 +4,7 @@
 > All ära för forskningen, modellen och kärnimplementationen tillhör originalförfattaren.
 > Se hans [arXiv-paper](https://arxiv.org/abs/2603.11441) och [HuggingFace-sida](https://huggingface.co/mehmetkeremturkcan/DART) för detaljer.
 >
-> **Vad jag har gjort:** Anpassat projektet för att köra lokalt på Windows 11 med en Nvidia GPU (testat på RTX 4080),
+> **Vad jag har gjort:** Anpassat projektet för att köra lokalt på Windows 11 med en Nvidia GPU (testat på NVIDIA GeForce RTX 4090 (24 GB)),
 > skrivit den här installationsguiden, samt gjort mindre kodfixar (se nedan).
 
 ---
